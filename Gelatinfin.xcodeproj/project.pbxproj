@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66D078542AC327E300392396 /* GelatinfinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D078532AC327E300392396 /* GelatinfinApp.swift */; };
+		66D078562AC327E300392396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D078552AC327E300392396 /* ContentView.swift */; };
+		66D078582AC327E500392396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D078572AC327E500392396 /* Assets.xcassets */; };
+		66D0785B2AC327E500392396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D0785A2AC327E500392396 /* Preview Assets.xcassets */; };
+		66D078652AC327E600392396 /* GelatinfinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D078642AC327E600392396 /* GelatinfinTests.swift */; };
+		66D0786F2AC327E600392396 /* GelatinfinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D0786E2AC327E600392396 /* GelatinfinUITests.swift */; };
+		66D078712AC327E600392396 /* GelatinfinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D078702AC327E600392396 /* GelatinfinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66D078612AC327E600392396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D078482AC327E300392396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D0784F2AC327E300392396;
+			remoteInfo = Gelatinfin;
+		};
+		66D0786B2AC327E600392396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D078482AC327E300392396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D0784F2AC327E300392396;
+			remoteInfo = Gelatinfin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66D078502AC327E300392396 /* Gelatinfin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gelatinfin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D078532AC327E300392396 /* GelatinfinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelatinfinApp.swift; sourceTree = "<group>"; };
+		66D078552AC327E300392396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66D078572AC327E500392396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66D0785A2AC327E500392396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66D078602AC327E600392396 /* GelatinfinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GelatinfinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D078642AC327E600392396 /* GelatinfinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelatinfinTests.swift; sourceTree = "<group>"; };
+		66D0786A2AC327E600392396 /* GelatinfinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GelatinfinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D0786E2AC327E600392396 /* GelatinfinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelatinfinUITests.swift; sourceTree = "<group>"; };
+		66D078702AC327E600392396 /* GelatinfinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelatinfinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D0784D2AC327E300392396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0785D2AC327E600392396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D078672AC327E600392396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D078472AC327E300392396 = {
+			isa = PBXGroup;
+			children = (
+				66D078522AC327E300392396 /* Gelatinfin */,
+				66D078632AC327E600392396 /* GelatinfinTests */,
+				66D0786D2AC327E600392396 /* GelatinfinUITests */,
+				66D078512AC327E300392396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66D078512AC327E300392396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D078502AC327E300392396 /* Gelatinfin.app */,
+				66D078602AC327E600392396 /* GelatinfinTests.xctest */,
+				66D0786A2AC327E600392396 /* GelatinfinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D078522AC327E300392396 /* Gelatinfin */ = {
+			isa = PBXGroup;
+			children = (
+				66D078532AC327E300392396 /* GelatinfinApp.swift */,
+				66D078552AC327E300392396 /* ContentView.swift */,
+				66D078572AC327E500392396 /* Assets.xcassets */,
+				66D078592AC327E500392396 /* Preview Content */,
+			);
+			path = Gelatinfin;
+			sourceTree = "<group>";
+		};
+		66D078592AC327E500392396 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66D0785A2AC327E500392396 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66D078632AC327E600392396 /* GelatinfinTests */ = {
+			isa = PBXGroup;
+			children = (
+				66D078642AC327E600392396 /* GelatinfinTests.swift */,
+			);
+			path = GelatinfinTests;
+			sourceTree = "<group>";
+		};
+		66D0786D2AC327E600392396 /* GelatinfinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66D0786E2AC327E600392396 /* GelatinfinUITests.swift */,
+				66D078702AC327E600392396 /* GelatinfinUITestsLaunchTests.swift */,
+			);
+			path = GelatinfinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D0784F2AC327E300392396 /* Gelatinfin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D078742AC327E600392396 /* Build configuration list for PBXNativeTarget "Gelatinfin" */;
+			buildPhases = (
+				66D0784C2AC327E300392396 /* Sources */,
+				66D0784D2AC327E300392396 /* Frameworks */,
+				66D0784E2AC327E300392396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gelatinfin;
+			productName = Gelatinfin;
+			productReference = 66D078502AC327E300392396 /* Gelatinfin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66D0785F2AC327E600392396 /* GelatinfinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D078772AC327E600392396 /* Build configuration list for PBXNativeTarget "GelatinfinTests" */;
+			buildPhases = (
+				66D0785C2AC327E600392396 /* Sources */,
+				66D0785D2AC327E600392396 /* Frameworks */,
+				66D0785E2AC327E600392396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D078622AC327E600392396 /* PBXTargetDependency */,
+			);
+			name = GelatinfinTests;
+			productName = GelatinfinTests;
+			productReference = 66D078602AC327E600392396 /* GelatinfinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66D078692AC327E600392396 /* GelatinfinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D0787A2AC327E600392396 /* Build configuration list for PBXNativeTarget "GelatinfinUITests" */;
+			buildPhases = (
+				66D078662AC327E600392396 /* Sources */,
+				66D078672AC327E600392396 /* Frameworks */,
+				66D078682AC327E600392396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D0786C2AC327E600392396 /* PBXTargetDependency */,
+			);
+			name = GelatinfinUITests;
+			productName = GelatinfinUITests;
+			productReference = 66D0786A2AC327E600392396 /* GelatinfinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D078482AC327E300392396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					66D0784F2AC327E300392396 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					66D0785F2AC327E600392396 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 66D0784F2AC327E300392396;
+					};
+					66D078692AC327E600392396 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 66D0784F2AC327E300392396;
+					};
+				};
+			};
+			buildConfigurationList = 66D0784B2AC327E300392396 /* Build configuration list for PBXProject "Gelatinfin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66D078472AC327E300392396;
+			productRefGroup = 66D078512AC327E300392396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D0784F2AC327E300392396 /* Gelatinfin */,
+				66D0785F2AC327E600392396 /* GelatinfinTests */,
+				66D078692AC327E600392396 /* GelatinfinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D0784E2AC327E300392396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D0785B2AC327E500392396 /* Preview Assets.xcassets in Resources */,
+				66D078582AC327E500392396 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0785E2AC327E600392396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D078682AC327E600392396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D0784C2AC327E300392396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D078562AC327E300392396 /* ContentView.swift in Sources */,
+				66D078542AC327E300392396 /* GelatinfinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D0785C2AC327E600392396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D078652AC327E600392396 /* GelatinfinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D078662AC327E600392396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D0786F2AC327E600392396 /* GelatinfinUITests.swift in Sources */,
+				66D078712AC327E600392396 /* GelatinfinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66D078622AC327E600392396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D0784F2AC327E300392396 /* Gelatinfin */;
+			targetProxy = 66D078612AC327E600392396 /* PBXContainerItemProxy */;
+		};
+		66D0786C2AC327E600392396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D0784F2AC327E300392396 /* Gelatinfin */;
+			targetProxy = 66D0786B2AC327E600392396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66D078722AC327E600392396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		66D078732AC327E600392396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D078752AC327E600392396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gelatinfin/Preview Content\"";
+				DEVELOPMENT_TEAM = 83B2QJMS93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.krhamby.Gelatinfin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		66D078762AC327E600392396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gelatinfin/Preview Content\"";
+				DEVELOPMENT_TEAM = 83B2QJMS93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.krhamby.Gelatinfin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		66D078782AC327E600392396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83B2QJMS93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.krhamby.GelatinfinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gelatinfin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gelatinfin";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		66D078792AC327E600392396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83B2QJMS93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.krhamby.GelatinfinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gelatinfin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gelatinfin";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		66D0787B2AC327E600392396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83B2QJMS93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.krhamby.GelatinfinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Gelatinfin;
+			};
+			name = Debug;
+		};
+		66D0787C2AC327E600392396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83B2QJMS93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.krhamby.GelatinfinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Gelatinfin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D0784B2AC327E300392396 /* Build configuration list for PBXProject "Gelatinfin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D078722AC327E600392396 /* Debug */,
+				66D078732AC327E600392396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D078742AC327E600392396 /* Build configuration list for PBXNativeTarget "Gelatinfin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D078752AC327E600392396 /* Debug */,
+				66D078762AC327E600392396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D078772AC327E600392396 /* Build configuration list for PBXNativeTarget "GelatinfinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D078782AC327E600392396 /* Debug */,
+				66D078792AC327E600392396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D0787A2AC327E600392396 /* Build configuration list for PBXNativeTarget "GelatinfinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D0787B2AC327E600392396 /* Debug */,
+				66D0787C2AC327E600392396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D078482AC327E300392396 /* Project object */;
+}
